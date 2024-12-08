@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alwar Public School</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <style>
+      /* Academics Section Styles */
+      .academics-section {
+        padding: 50px 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+
+      .academics-section h2 {
+        font-size: 36px;
+        color: rgb(63, 150, 121);
+        margin-bottom: 20px;
+      }
+
+      .academics-section p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto 30px;
+      }
+
+      .academic-programs {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .academic-card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 250px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        text-align: left;
+      }
+
+      .academic-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .academic-card h3 {
+        font-size: 22px;
+        color: rgb(63, 150, 121);
+        margin-bottom: 10px;
+      }
+
+      .academic-card p {
+        font-size: 16px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Alwar Public School</h1>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="navbar.html">Home</a></li>
+          <li><a href="01_about.html">About</a></li>
+          <li><a href="02_academics.html">Academics</a></li>
+          <li><a href="03_faculty.html">Faculty</a></li>
+          <li><a href="04_Event.html">Event</a></li>
+          <li><a href="05_contact.html">Contact-us</a></li>
+          <div class="Login">
+            <a href="06_login.html">Login</a>
+            <p class="sep">/</p>
+            <a href="06_login.html">Signup</a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="academics-section">
+      <h2>Academics at Alwar Public School</h2>
+      <p>
+        Alwar Public School offers a comprehensive academic program to foster intellectual growth and creativity.
+        Our curriculum is designed to inspire students and prepare them for a successful future in their chosen fields.
+      </p>
+
+      <div class="academic-programs">
+        <div class="academic-card">
+          <h3>Primary Education</h3>
+          <p>
+            Our primary school focuses on building foundational skills in subjects like math, science, and languages.
+          </p>
+        </div>
+
+        <div class="academic-card">
+          <h3>Secondary Education</h3>
+          <p>
+            A diverse curriculum for secondary students that includes advanced studies in various subjects to prepare for higher education.
+          </p>
+        </div>
+
+        <div class="academic-card">
+          <h3>Extracurricular Activities</h3>
+          <p>
+            We offer a wide range of extracurricular activities including sports, music, arts, and drama to promote well-rounded development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p>© 2025 Alwar Public School. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
